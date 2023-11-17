@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="assets/snake.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SsSsSnake Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fonte-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!--Play Icon-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!--Speed Up Icon-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!--Speed Down Icon-->
+  </head>
+  <body>
+    <div class="score">
+      Score: <span class="score-value">00</span>
+      <p>Controles: W, A, S, D / ← ↑ → ↓</p>
+    </div>
+    <div class="menu-screen">
+      <span class="game-over">Game Over</span>
+      <span class="final-score">Score <span>00</span></span>
+
+      <button class="btn-play">
+        <span class="material-symbols-outlined"> smart_display </span>Jogar
+        Novamente
+      </button>
+      <button class="btn-speed-up">
+        <span class="material-symbols-outlined"> fast_forward </span>Aumentar
+        Velocidade
+      </button>
+      <button class="btn-speed-down">
+        <span class="material-symbols-outlined"> fast_rewind </span>Diminuir
+        Velocidade
+      </button>
+    </div>
+    <canvas width="600" height="600"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
